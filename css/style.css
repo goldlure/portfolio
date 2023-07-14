@@ -1,6 +1,7 @@
 :root {
     --black: #171321;
-    --dkblue: #869AA6;
+    --dkblue: #352857;
+    --lightgrey: #869AA6;
     --plum: #4EA686;
     --hotmag: #4EA686;
     --magenta: #BF7154;
@@ -34,7 +35,7 @@ h3 {
     margin: 0;
 }
 a {
-    color: var(--dkblue);
+    color: var(--lightgrey);
 }
 
 a:hover {
@@ -78,6 +79,10 @@ a:hover {
 }
 .section-plum {
     background-color: var(--plum);
+}
+
+.section-dkblue {
+    background-color: var(--dkblue);
 }
 
 #contact {
